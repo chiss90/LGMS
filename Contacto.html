@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <!--título de la página.-->
+    <title>ChissTravel - Agencia de viajes</title>
+    <!--fuente que utilizaremos será de google.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <!--fichero de estilos que utilizaremos en la página.-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<!--permite insertar una zona de visualización para las cabeceras.-->
+<header>
+     <!--en este caso sólo muestra dos títulos.-->
+    <h1>ChissTravel</h1>
+    <h2>Esxperiencias que no olvidarás</h2>
+</header>
+ 
+<!--permite insertar una zona de visualización para la navegación con vínculos hipertexto, con temática relacionada-->
+<nav>
+    <!--creación de un listado con links a referencias internas-->
+    <ul><a href="index.html">Home</a></ul>
+    <ul><a href="catalogo.html">Catálogo</a></ul>
+    <ul><a href="noticias.html">Noticias</a></ul>
+    <ul><a href="Contacto.html">Contacto</a></ul>
+
+</nav>
+
+
+<!--section:permite agrupar elementos que tengan la misma temática.--> 
+<section id=section>
+    <article>
+        <form id="form2" action="mailto:i.lete@chisstravel.com" method="get">
+            <fieldset>
+                <legend><h3>Pide información sin compromiso</h3></legend>
+                    <label for="fnamenom2">Nombre:</label><br>
+                    <input type="text" id="fnamenom2" name="nombre2"  value=""><br>
+                    <label for="fnameapel2">Apellidos:</label><br>
+                    <input type="text" id="fnameapel2" name="apellido2" value=""><br>
+                    <label for="fnameapel2"><E-mail></E-mail></label><br>
+                    <input type="text" id="posta" name="mail2" value=""><br>
+                    <label for="fnameapel2">Teléfono:</label><br>
+                    <input type="text" id="phone" name="Tel2" value=""><br>
+                    <label for="fnameapel2">Consulta:</label><br>
+                    <input type="text" id="consult" name="consulta2" value=""><br>                
+                   
+
+                <label for="mod2">¿A dónde te gustaría viajar?:</label><br>
+                <select id="mod2" name="modulo">
+                    <option value="LM2">Europa</option>
+                    <option value="PROG2">América Latina</option>
+                    <option value="BD2">EEUU</option>
+                </select>
+            
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </article>   
+</section>
+
+
+ 
+<footer>
+    <!--permite insertar una zona de visualización para los pies de página.-->
+    <p>ChissTravel - B20591739 - Tlf. 943674733</p>
+</footer>
+ 
+
+</body>
+</html>

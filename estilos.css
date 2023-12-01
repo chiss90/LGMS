@@ -1,0 +1,65 @@
+header, footer, nav, section, aside {
+	background-color: rgb(214, 55, 55);
+	color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+	margin: 5px;
+    text-align: center;
+}
+
+/* Estilos del contenedor section. Se utiliza un id porque solo se va aplicar a este elemento */
+#principal {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Estilos del contenedor nav */
+nav{
+	display: flex;
+	flex-direction: row;
+    text-align: center;
+}
+
+/* Estilos del contenedor aside para los iconos */
+#contenedor-iconos {
+	flex-basis: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+/* Estilos del footer */
+footer {
+	justify-content: space-around;
+}
+
+/* Estilos para que el texto rodee a la imagen. Propiedad float */
+.imagen-float {
+	width: 300px;
+	float: right;
+}
+
+.fin-float {
+	clear: both;
+}
+
+/* Estilos para los iconos del aside */
+.titulo-iconos {
+	width: 100%;	
+}
+
+.contenedor-icono {
+	width: 50%;
+}
+
+.icono {
+	width: 50px;
+}
+
+/* Estilos de los párrafos dentro del footer */
+footer p {
+	justify-content: space-around;
+}

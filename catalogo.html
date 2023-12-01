@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <!--título de la página.-->
+    <title>ChissTravel - Agencia de viajes</title>
+    <!--fuente que utilizaremos será de google.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Pacifico&family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <!--fichero de estilos que utilizaremos en la página.-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<!--permite insertar una zona de visualización para las cabeceras.-->
+<header>
+     <!--en este caso sólo muestra dos títulos.-->
+    <h1>ChissTravel</h1>
+    <h2>Esxperiencias que no olvidarás</h2>
+</header>
+ 
+<!--permite insertar una zona de visualización para la navegación con vínculos hipertexto, con temática relacionada-->
+<nav>
+    <!--creación de un listado con links a referencias internas-->
+    <ul><a href="index.html">Home</a></ul>
+    <ul><a href="catalogo.html">Catálogo</a></ul>
+    <ul><a href="noticias.html">Noticias</a></ul>
+    <ul><a href="Contacto.html">Contacto</a></ul>
+    
+
+</nav>
+
+<!--permite mostrar un contenido relacionado con el contenido al que esté vinculado.-->
+<!--links que complementan el contenido....tweets, enlaces externos,..-->
+<aside>
+    <h3>Catálogo</h3>
+    <img src="img/configs.png" alt="Europa">
+    <img src="img/hospedagem.png" alt="América Latina">
+    <img src="img/site.png" alt="EEUU">
+</aside>
+
+<!--permite mostrar un contenido central. Sólo permite una etiqueta por página-->
+<main>
+
+    <!--section:permite agrupar elementos que tengan la misma temática.--> 
+    <section id="Catálogo">
+        <h3>Europa</h3> <!--Obligatorio para que no haya warning.--> 
+        <!--article:permite insertar un contenido autónomo.--> 
+        <article><!--Europa + link-->
+            <h2>Cruceros</h2>
+        </article>
+        
+        <article><!--América Latina + link-->
+            <h2>Ciudades </h2>
+        </article>
+        
+        <article>
+            <h2>Aventuras</h2>
+
+        </article>
+    
+    </section>
+</main>
+
+ 
+<footer>
+    <!--permite insertar una zona de visualización para los pies de página.-->
+    <p>ChissTravel - B20591739 - Tlf. 943674733</p>
+</footer>
+
+</body>
+</html>
